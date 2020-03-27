@@ -1,0 +1,26 @@
+{
+   "name": "@jcbuisson/readlinesync",
+   "version": "1.0.0",
+   "description": "Read a text file, line by line, synchronously",
+   "keywords": [
+     "example",
+     "package",
+     "tutorial"
+   ],
+   "homepage": "https://github.com/jcbuisson/readlinesync",
+   "main": "index.js",
+   "scripts": {
+     "test": "mocha"
+   },
+   "repository": {
+     "type": "git",
+     "url": "https://github.com/jcbuisson/readlinesync.git"
+   },
+   "author": "Joe Bloggs <your-public-email@example.com> (your-website.com)",
+   "license": "MIT",
+   "private": false,
+   "engines": {
+     "node": ">=10.0.0"
+   },
+   "engineStrict": true
+ }
