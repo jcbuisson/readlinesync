@@ -48,7 +48,7 @@ module.exports = function*(path, options) {
    let stringDecoder = new StringDecoder(encoding)
    
    if (!fs.existsSync(path)) {
-      throw new Error("no such file or directory '" + path + "'")
+      throw new Error(`no such file or directory '${path}'`)
    }
    let fd = fs.openSync(path, 'r')
    
