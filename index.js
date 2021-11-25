@@ -1,19 +1,3 @@
-/**
- * Generator reading a text file, line by line, synchronously
- * 
- * Requires node >= 10
- *
- * Example:
- * 
- * const readlineSync = require('@jcbuisson/readlinesync')
- * const lineGenerator = readlineSync(filePath)
- * for (let line of lineGenerator) {
- *    console.info(line)
- * } 
- *
- * License: MIT
- */
-
 
 const fs = require('fs')
 const os = require('os')

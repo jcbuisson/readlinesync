@@ -1,10 +1,15 @@
-# readlinesync
 
 Generator reading a text file, line by line, synchronously
 
 Requires node >= 10
 
-## Example:
+# Install
+```
+npm install @jcbuisson/readlinesync
+```
+
+# Usage example
+
 ```
 const readlineSync = require('@jcbuisson/readlinesync')
 const lineGenerator = readlineSync(filePath)
@@ -13,11 +18,12 @@ for (let line of lineGenerator) {
 }
 ```
 
-## Usage
+# Options
 
 ```
-const Factory = require('@jcbuisson/readlinesync')
-const lineReader = Factory(path, options)
+const LineReaderFactory = require('@jcbuisson/readlinesync')
+const lineReader = LineReaderFactory(path, options)
+```
 
 - `path` is the path of the file to read
 - `options` is an optional object with the following optional attributes:
