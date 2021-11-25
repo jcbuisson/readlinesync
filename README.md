@@ -21,8 +21,8 @@ for (let line of lineGenerator) {
 # Options
 
 ```
-const LineReaderFactory = require('@jcbuisson/readlinesync')
-const lineReader = LineReaderFactory(path, options)
+const readlineSync = require('@jcbuisson/readlinesync')
+const lineReader = readlineSync(path, options)
 ```
 
 - `path` is the path of the file to read
